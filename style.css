@@ -1,6 +1,6 @@
 body {
   background-image: url(https://maniacosporcarros.files.wordpress.com/2013/03/imagem-carros-de-corrida.jpg);
-  background-size:auto;
+  background-size:cover;
   background-repeat: no-repeat;
   margin: auto;
 }
@@ -17,18 +17,16 @@ body {
   color:black;
   font-family: monospace;
   font-size: 50px;
-  margin-top: 50px;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-top: 5px;
 }
 
 .center {
-  padding: 10px;
+  padding: 5px;
   text-align: center;
 }
 
 .car-section {
-  padding-top: 10px;
+  padding-top: 5px;
   text-align: left;
 }
 
@@ -72,10 +70,9 @@ body {
 .button {
   background-color: green;
   color: white;
-  padding: 10px;
+  padding: 5px;
   border-radius: 5px;
   margin-top: auto;
-  margin-bottom: 25%;
   height: 100px;
   width: 180px;
   font-size: large;
