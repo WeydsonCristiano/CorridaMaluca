@@ -31,23 +31,23 @@ botaoCorrida.addEventListener("click", function () {
   carro5.style.marginLeft =
     parseInt(carro2.style.marginLeft) + Math.random() * 300 + "px";
   if (parseInt(carro1.style.marginLeft) > window.innerWidth) {
-    alert("Porche911 venceu!!!");
+    alert("Mclaren-650s venceu!!!");
     resetCars();
   }
   if (parseInt(carro2.style.marginLeft) > window.innerWidth) {
-    alert("Bmw320 venceu!!!");
+    alert("Lamborguine-Galardo venceu!!!");
     resetCars();
   }
   if (parseInt(carro3.style.marginLeft) > window.innerWidth) {
-    alert("Dogde Viper venceu!!!");
+    alert("Ferrari-599x venceu!!!");
     resetCars();
   }
   if (parseInt(carro4.style.marginLeft) > window.innerWidth) {
-    alert("Concept car venceu!!!");
+    alert("Porche-911 venceu!!!");
     resetCars();
   }
   if (parseInt(carro5.style.marginLeft) > window.innerWidth) {
-    alert("Mitshubish venceu!!!");
+    alert("Toyota-Supra venceu!!!");
     resetCars();
   }
 });
