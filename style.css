@@ -1,6 +1,6 @@
 body {
   background-image: url(https://maniacosporcarros.files.wordpress.com/2013/03/imagem-carros-de-corrida.jpg);
-  background-size: cover;
+  background-size:auto;
   background-repeat: no-repeat;
   margin: auto;
 }
