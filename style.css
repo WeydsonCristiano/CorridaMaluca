@@ -30,8 +30,7 @@ body {
   text-align: left;
 }
 
-.car1 {
-  background-image: url(https://o.remove.bg/downloads/870c2b87-2d85-4ed0-b418-8e851be7ee55/mclaren-650s-gt3--removebg-preview.png);
+.car1 {  background-image: url(https://o.remove.bg/downloads/ddaad27b-6231-4290-a965-a2aa6c3ff38f/supra-removebg-preview.png);
   background-size: contain;
   margin-left: 0px;
   margin-bottom: 10px;
@@ -59,13 +58,7 @@ body {
   margin-bottom: 10px;
   background-repeat: no-repeat;
 }
-.car5 {
-  background-image: url(https://o.remove.bg/downloads/ddaad27b-6231-4290-a965-a2aa6c3ff38f/supra-removebg-preview.png);
-  background-size: contain;
-  margin-left: 0px;
-  margin-bottom: 10px;
-  background-repeat: no-repeat;
-}
+
 
 .button {
   background-color: green;
