@@ -1,13 +1,14 @@
 body {
   background-image: url(https://maniacosporcarros.files.wordpress.com/2013/03/imagem-carros-de-corrida.jpg);
-  background-size:100%;
+  background-size:cover;
   background-repeat: no-repeat;
+  margin: auto;
 }
 
 .car {
   background-size: auto;
-  height: 100px;
-  width: 200px;
+  height: 200px;
+  width: 400px;
   margin-top: 50px;
 }
 
@@ -28,7 +29,7 @@ body {
 }
 
 .car-section {
-  padding-top: 20px;
+  padding-top: 30px;
   text-align: left;
 }
 
@@ -37,12 +38,14 @@ body {
   background-size: contain;
   margin-left: 0px;
   margin-bottom: 20px;
+  background-repeat: no-repeat;
 }
 
 .car2 {
   background-image: url(https://w7.pngwing.com/pngs/12/648/png-transparent-touring-car-racing-bumper-bmw-auto-racing-car-racing-car-performance-car-thumbnail.png);
   background-size: contain;
   margin-left: 0px;
+  background-repeat: no-repeat;
 }
 
 .button {
@@ -50,7 +53,8 @@ body {
   color: white;
   padding: 10px;
   border-radius: 5px;
-  margin-top:300px;
+  margin-top:auto;
+  margin-bottom: 25%;
   height: 100px;
   width: 180px;
   font-size:large;

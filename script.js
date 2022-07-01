@@ -15,12 +15,11 @@ function resetCars() {
 resetCars();
 botaoCorrida.addEventListener("click", function () {
   carro1.style.marginLeft =
-    parseInt(carro1.style.marginLeft) + Math.random() * 50 + "px";
+    parseInt(carro1.style.marginLeft) + Math.random() * 150 + "px";
   carro2.style.marginLeft =
-    parseInt(carro2.style.marginLeft) + Math.random() * 50 + "px";
+    parseInt(carro2.style.marginLeft) + Math.random() * 150 + "px";
   if (parseInt(carro1.style.marginLeft) > window.innerWidth) {
     alert("Porche911 venceu!!!");
-    
     resetCars();
   }
   if (parseInt(carro2.style.marginLeft) > window.innerWidth) {
