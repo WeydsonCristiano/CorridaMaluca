@@ -1,12 +1,13 @@
 body {
   background-image: url(https://maniacosporcarros.files.wordpress.com/2013/03/imagem-carros-de-corrida.jpg);
-  background-size: cover;
+  background-size:cover;
   background-repeat: no-repeat;
   }
   
   .car {
+    font-size: xx-small;
   height: 200px;
-  width: 200px;
+  width: 20px;
   }
   
   .title-heading {
@@ -53,6 +54,13 @@ body {
   font-size: xx-large;
   font-weight: bold;
   margin-left: 50px;
-  margin-top: 100px;
+  margin: 100px;
   }
-  
+  /* @media screen and (max-width: 360px) {
+    .body{
+      max-width: 400px
+    }
+  .car{
+    max-width: 400;
+  }
+  } */
