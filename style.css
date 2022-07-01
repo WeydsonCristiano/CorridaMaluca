@@ -8,14 +8,17 @@ body {
   background-size: auto;
   height: 100px;
   width: 200px;
+  margin-top: 50px;
 }
 
 .title-heading {
   background-color: black;
   color: white;
   font-family: monospace;
-  font-size: 60px;
+  font-size: 30px;
   margin-top: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
   
 }
 
