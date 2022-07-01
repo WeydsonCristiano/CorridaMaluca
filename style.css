@@ -8,15 +8,16 @@ body {
 .car {
   background-size: auto;
   height: 150px;
-  width: 250px;
+  width: 200px;
   margin-top: 20px;
 }
 
 .title-heading {
-  background-color: black;
-  color: white;
-  font-family: monospace;
-  font-size: 50px;
+  background-color:transparent;
+  color:black;
+  font-family:fantasy;
+  font-style: italic;
+  font-size: 70px;
   margin-top: 50px;
   margin-left: 25%;
   margin-right: 25%;
