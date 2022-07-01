@@ -1,26 +1,33 @@
 body {
   background-image: url(https://maniacosporcarros.files.wordpress.com/2013/03/imagem-carros-de-corrida.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
-  margin: auto;
+  margin: 5px;
+  background-size: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 .car {
-  background-size: auto;
-  height: 150px;
-  width: 200px;
-  margin-top: 20px;
+  height: 80px;
+  width: 150px;
+  margin-top: 50px;
+  margin-bottom: 5px;
 }
 
 .title-heading {
-  background-color:transparent;
-  color:black;
-  font-family:fantasy;
+  text-align: center;
+  position: fixed;
+  background-color: transparent;
+  color: black;
+  font-family: fantasy;
   font-style: italic;
-  font-size: 70px;
-  margin-top: 50px;
-  margin-left: 25%;
-  margin-right: 25%;
+  font-size: 50px;
+  margin-top: 5px;
+  margin-left: 100px;
 }
 
 .center {
@@ -71,15 +78,15 @@ body {
 }
 
 .button {
+  position: fixed;
   background-color: green;
   color: white;
   padding: 10px;
   border-radius: 5px;
-  margin-top: auto;
-  margin-bottom: 25%;
-  height: 100px;
-  width: 180px;
+  margin-top:auto;
+  margin-left: 400px;
+  height: 80px;
+  width: 150px;
   font-size: large;
   font-weight: bold;
-  margin-left: 40%;
 }
