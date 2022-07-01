@@ -20,10 +20,11 @@ botaoCorrida.addEventListener("click", function () {
     parseInt(carro2.style.marginLeft) + Math.random() * 50 + "px";
   if (parseInt(carro1.style.marginLeft) > window.innerWidth) {
     alert("Porche911 venceu!!!");
+    
     resetCars();
   }
   if (parseInt(carro2.style.marginLeft) > window.innerWidth) {
-    alert("Bmw320 venceu!!!");
+    alert("Bmw320 venceu!!!",);
     resetCars();
   }
 });
