@@ -1,0 +1,48 @@
+body {
+  background-image: url(https://maniacosporcarros.files.wordpress.com/2013/03/imagem-carros-de-corrida.jpg);
+  background-size: 100%;
+}
+
+.car {
+  background-size: auto;
+  height: 100px;
+  width: 200px;
+}
+
+.title-heading {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  font-size: 60px;
+  margin-top: 50px;
+}
+
+.center {
+  padding: 10px;
+  text-align: center;
+}
+
+.car-section {
+  padding-top: 20px;
+  text-align: left;
+}
+
+.car1 {
+  background-image: url(https://w7.pngwing.com/pngs/361/361/png-transparent-porsche-automobile-car-sports-car-racing-car-silver-metallic-fast-expensive-luxury-thumbnail.png);
+  background-size: contain;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+
+.car2 {
+  background-image: url(https://w7.pngwing.com/pngs/12/648/png-transparent-touring-car-racing-bumper-bmw-auto-racing-car-racing-car-performance-car-thumbnail.png);
+  background-size: contain;
+  margin-left: 0px;
+}
+
+.button {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
