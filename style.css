@@ -3,6 +3,7 @@ body {
   background-size:cover;
   background-repeat: no-repeat;
   margin: auto;
+  
 }
 
 .car {
@@ -62,3 +63,8 @@ body {
   margin-left: 40%
 
 }
+@media screen and (max-width: 600px) and (min-width: 340px) {
+  .container {
+    margin: em 2em;
+  }
+} 
