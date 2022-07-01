@@ -1,74 +1,57 @@
 body {
   background-image: url(https://maniacosporcarros.files.wordpress.com/2013/03/imagem-carros-de-corrida.jpg);
-  background-size:cover;
-  background-repeat: no-repeat;
-  margin: auto;
-}
-
-.car {
-  background-size: auto;
-  height: 150px;
+  background-size: cover;
+  }
+  
+  .car {
+  height: 200px;
   width: 200px;
-  margin-top: 20px;
-}
-
-.title-heading {
-  background-color:transparent;
-  color:black;
+  }
+  
+  .title-heading {
+  background-color: transparent;
+  background-color: black;
+  color: white;
   font-family: monospace;
-  font-size: 50px;
-  margin-top: 5px;
-}
-
-.center {
-  padding: 5px;
+  font-size: 60px;
+  margin-top: 50px;
+  }
+  
+  .center {
+  padding: 10px;
   text-align: center;
-}
-
-.car-section {
-  padding-top: 5px;
+  }
+  
+  .car-section {
+  font-size: medium;
+  padding-top: 20px;
   text-align: left;
-}
-
-.car1 {  background-image: url(https://o.remove.bg/downloads/ddaad27b-6231-4290-a965-a2aa6c3ff38f/supra-removebg-preview.png);
-  background-size: contain;
+  }
+  
+  .car1 {
   margin-left: 0px;
-  margin-bottom: 10px;
-  background-repeat: no-repeat;
-}
-
-.car2 {
-  background-image: url(https://o.remove.bg/downloads/3691dce0-edd4-4442-a83d-8b2361ad4f99/Race-Car-PNG-Clipart-removebg-preview.png);
-  background-size: contain;
+  padding-top: 5px;
+  }
+  
+  .car2 {
   margin-left: 0px;
-  margin-bottom: 10px;
-  background-repeat: no-repeat;
-}
-.car3 {
-  background-image: url(https://o.remove.bg/downloads/719909bb-a113-43e9-a803-71f064ea6f36/Race-Car-PNG-Image-removebg-preview.png);
-  background-size: contain;
+  margin-bottom: 50px;
+  padding-top: 5px;
+  }
+  
+  .car3 {
   margin-left: 0px;
-  margin-bottom: 10px;
-  background-repeat: no-repeat;
-}
-.car4 {
-  background-image: url(https://o.remove.bg/downloads/f36b9695-d21b-4088-ab22-23d3b9652dc2/Race-Car-Transparent-PNG-removebg-preview.png);
-  background-size: contain;
-  margin-left: 0px;
-  margin-bottom: 10px;
-  background-repeat: no-repeat;
-}
-
-
-.button {
+  padding-top: 5px;
+  }
+  
+  .button {
   background-color: green;
   color: white;
-  padding: 5px;
+  padding: 50px;
   border-radius: 5px;
-  margin-top: auto;
-  height: 100px;
-  width: 180px;
-  font-size: large;
+  font-size: xx-large;
   font-weight: bold;
-  margin-left: 40%;
-}
+  margin-left: 50px;
+  margin-top: 100px;
+  }
+  
