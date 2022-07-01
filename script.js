@@ -21,15 +21,15 @@ function resetCars() {
 resetCars();
 botaoCorrida.addEventListener("click", function () {
   carro1.style.marginLeft =
-    parseInt(carro1.style.marginLeft) + Math.random() * 300 + "px";
+    parseInt(carro1.style.marginLeft) + Math.random() * 200 + "px";
   carro2.style.marginLeft =
-    parseInt(carro2.style.marginLeft) + Math.random() * 300 + "px";
+    parseInt(carro2.style.marginLeft) + Math.random() * 200 + "px";
   carro3.style.marginLeft =
-    parseInt(carro2.style.marginLeft) + Math.random() * 300 + "px";
+    parseInt(carro2.style.marginLeft) + Math.random() * 200 + "px";
   carro4.style.marginLeft =
-    parseInt(carro2.style.marginLeft) + Math.random() * 300 + "px";
+    parseInt(carro2.style.marginLeft) + Math.random() * 200 + "px";
   carro5.style.marginLeft =
-    parseInt(carro2.style.marginLeft) + Math.random() * 300 + "px";
+    parseInt(carro2.style.marginLeft) + Math.random() * 200 + "px";
   if (parseInt(carro1.style.marginLeft) > window.innerWidth) {
     alert("Mclaren-650s venceu!!!");
     resetCars();
