@@ -1,62 +1,63 @@
 body {
   background-image: url(https://maniacosporcarros.files.wordpress.com/2013/03/imagem-carros-de-corrida.jpg);
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
-  }
-  
-  .car {
-    font-size: xx-small;
-  height: 200px;
-  width: 20px;
-  }
-  
-  .title-heading {
+}
+
+.car {
+  font-size: xx-small;
+  height: 100px;
+}
+
+.title-heading {
   background-color: transparent;
-  background-color: black;
-  color: white;
-  font-family: monospace;
-  font-size: 60px;
-  margin-top: 50px;
-  }
-  
-  .center {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  margin-top: 40px;
+}
+
+.center {
   padding: 10px;
   text-align: center;
-  }
-  
-  .car-section {
-  font-size: medium;
-  padding-top: 20px;
+}
+
+.car-section {
+  padding-top: 5px;
   text-align: left;
-  }
-  
-  .car1 {
+}
+
+.car1 {
   margin-left: 0px;
   padding-top: 5px;
-  }
-  
-  .car2 {
+}
+
+.car2 {
   margin-left: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 5px;
   padding-top: 5px;
-  }
-  
-  .car3 {
+}
+
+.car3 {
   margin-left: 0px;
   padding-top: 5px;
-  }
-  
-  .button {
+}
+
+.car4 {
+  margin-left: 0px;
+  padding-top: 5px;
+}
+.button {
   background-color: green;
   color: white;
-  padding: 50px;
+  padding: 30px;
   border-radius: 5px;
-  font-size: xx-large;
+  font-size: x-large;
   font-weight: bold;
   margin-left: 50px;
   margin: 100px;
-  }
-  /* @media screen and (max-width: 360px) {
+}
+/* @media screen and (max-width: 360px) {
     .body{
       max-width: 400px
     }
